@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yousef Osama - Portfolio</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+body{font-family:'Inter',sans-serif}
+.mono{font-family:'JetBrains Mono',monospace}
+</style>
+</head>
+<body class="bg-[#0B0B12] text-white antialiased min-h-screen">
+
+<!-- NAVBAR زي الصورة بالظبط -->
+<nav class="flex items-center justify-between px-8 lg:px-20 py-6 bg-[#12121A] border-b border-white/[0.06]">
+  <div class="flex items-center gap-2">
+    <span class="font-bold text-[22px]">Yousef Osama</span>
+    <span class="text-[#4EE8D1] text-[18px]">⚡</span>
+  </div>
+
+  <div class="hidden md:flex items-center gap-8 text-[15px]">
+    <a class="text-[#4EE8D1] border-b-2 border-[#4EE8D1] pb-1 font-medium">Home</a>
+    <a class="text-white/60 hover:text-white cursor-pointer">Projects</a>
+    <a class="text-white/60 hover:text-white cursor-pointer">About</a>
+    <a class="text-white/60 hover:text-white cursor-pointer">Contact</a>
+  </div>
+
+  <div class="flex items-center gap-3">
+    <a href="https://github.com/os654ali36-svg" target="_blank" class="flex items-center gap-2 px-4 py-2 rounded-lg border border-white/15 text-sm text-white/80">
+      GitHub
+    </a>
+    <a href="https://wa.me/201104170959" class="px-5 py-2 rounded-lg bg-[#4EE8D1] text-black font-semibold text-sm">
+      WhatsApp
+    </a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<main class="grid lg:grid-cols-2 gap-12 px-8 lg:px-20 py-16 lg:py-24 items-center">
+
+  <!-- LEFT -->
+  <div>
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#4EE8D1] text-black text-[13px] font-bold">
+      <span class="w-2 h-2 bg-[#00ff00] rounded-full"></span>
+      Available for freelance • Open to work
+    </div>
+
+    <h1 class="text-[48px] lg:text-[60px] font-bold leading-[1.1] mt-8">
+      Hi, I'm<br>Yousef Osama
+    </h1>
+
+    <p class="text-[20px] lg:text-[24px] font-semibold text-white/90 leading-snug mt-4">
+      I build modern, responsive, and high-performance web applications using
+    </p>
+
+    <div class="flex gap-3 mt-5 flex-wrap">
+      <span class="px-3 py-1.5 rounded-full border border-white/20 text-[13px] flex items-center gap-1.5">⚛ React</span>
+      <span class="px-3 py-1.5 rounded-full border border-white/20 text-[13px] flex items-center gap-1.5">▲ Next.js</span>
+      <span class="px-3 py-1.5 rounded-full border border-white/20 text-[13px] flex items-center gap-1.5">TS TypeScript</span>
+    </div>
+
+    <p class="text-white/60 text-[15px] leading-relaxed mt-6 max-w-[520px]">
+      Crafting fast, accessible, and scalable web experiences with modern tooling. Focused on clean UI, performance, and seamless user experiences.
+      <br><br>
+      <span class="text-white">Phone:</span> 01104170959
+    </p>
+
+    <div class="flex gap-4 mt-8">
+      <a href="#projects" class="px-8 py-3 rounded-lg bg-[#4EE8D1] text-black font-semibold">View Projects</a>
+      <a href="https://wa.me/201104170959?text=السلام%20عليكم%20يا%20يوسف%20عايز%20اعمل%20موقع" class="px-8 py-3 rounded-lg border border-white/20 text-white/80 font-medium">Contact Me</a>
+    </div>
+
+    <div class="flex gap-12 mt-12">
+      <div>
+        <div class="text-2xl font-bold">2+</div>
+        <div class="text-[14px] font-semibold">Years</div>
+        <div class="text-[13px] text-white/50">Experience</div>
+      </div>
+      <div class="w-px bg-white/10 self-center h-8"></div>
+      <div>
+        <div class="text-2xl font-bold">10+</div>
+        <div class="text-[14px] font-semibold">Projects</div>
+        <div class="text-[13px] text-white/50">Delivered</div>
+      </div>
+      <div class="w-px bg-white/10 self-center h-8"></div>
+      <div>
+        <div class="text-2xl font-bold">100%</div>
+        <div class="text-[14px] font-semibold">Responsive</div>
+        <div class="text-[13px] text-white/50">Design</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT CODE CARD زي الصورة -->
+  <div class="relative bg-[#15151E] border border-white/[0.07] rounded-[16px] p-3 lg:ml-8">
+    <div class="flex gap-2 px-2 py-2">
+      <div class="w-3 h-3 rounded-full bg-[#FF5F56]"></div>
+      <div class="w-3 h-3 rounded-full bg-[#FFBD2E]"></div>
+      <div class="w-3 h-3 rounded-full bg-[#27C93F]"></div>
+    </div>
+    <div class="bg-[#0E0E14] rounded-[12px] p-6 mt-2 border border-white/[0.05] mono">
+      <div class="text-white/40 text-[13px] mb-6">developer.tsx</div>
+      <div class="text-[14px] leading-8">
+        <span class="text-[#A78BFA]">const</span> <span class="text-[#93C5FD]">developer</span> = {<br>
+        &nbsp;&nbsp;name: <span class="text-[#BEF264]">"Yousef Osama"</span>,<br>
+        &nbsp;&nbsp;phone: <span class="text-[#FBBF24]">"01104170959"</span>,<br>
+        &nbsp;&nbsp;role: <span class="text-[#BEF264]">"Frontend Developer"</span>,<br>
+        &nbsp;&nbsp;stack: [<span class="text-[#BEF264]">"React"</span>, <span class="text-[#BEF264]">"Next.js"</span>, <span class="text-[#BEF264]">"TypeScript"</span>],<br>
+        &nbsp;&nbsp;available: <span class="text-[#93C5FD]">true</span>,<br>
+        &nbsp;&nbsp;location: <span class="text-[#BEF264]">"Egypt, Cairo"</span><br>
+        };<br><br>
+        <span class="text-white/40">// Ready to build your next project 🚀</span>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="border-t border-white/[0.06] py-4 text-center text-white/30 text-[12px]">
+  Built with Next.js • TailwindCSS • TypeScript • Yousef Osama - 01104170959
+</footer>
+
+</body>
+</html>
